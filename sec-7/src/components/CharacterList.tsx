@@ -14,6 +14,7 @@ interface CharacterListProps {
   characters: Character[];
 }
 
+// localStateがないので２つめの引数は宣言なしまたは{}を定義する
 class CharacterList extends React.Component<CharacterListProps, {}> {
   render() {
     const { school, characters } = this.props;
